@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  .bg-img {
+    background-image: url(back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: black;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  section {
+    padding: 5%;
+    padding-top: 0;
+    height: 100vh;
+  }
+  
+  .side {
+    margin-left: 0;
+  }
+  input[type="number"] {
+    width: 70px;
+    color: black;
+    font-size: 17px;
+    background: white;
+    border-color: #151414;
+    border-width: medium;
+  }
+  input[type="color"] {
+    width: 45px;
+    min-height: 30px;
+    border-color: #151414;
+    border-width: medium;
+    background: white;
+  }
+  
+  button {
+    margin: 10px;
+    border-color: black !important;
+    border-width: medium !important;
+    background: white !important;
+    color: #151414 !important;
+    margin-bottom: 25px;
+  }
+  
+  button:hover {
+    background-color: #c7aee1 !important;
+  }
+  
+  textarea {
+    padding: 3%;
+    border-color: #957dad;
+    border-width: thick;
+    background: white;
+  }
+  
+  .flex-box {
+    display: flex;
+    justify-content: center;
+  }
